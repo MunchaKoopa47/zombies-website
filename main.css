@@ -1,0 +1,133 @@
+/* background */
+.background {
+    background-color: rgb(0, 0, 0);
+}
+/* background */
+
+/* links */
+.link {
+    color:rgb(255, 255, 255);
+}
+/* links */
+
+/* header */
+h1 {
+    color: rgb(201, 15, 15);
+    font-family: 'Mansalva', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formath2 {
+    color: rgb(201, 15, 15);
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Mansalva', cursive;
+}
+
+.formath3 {
+    color: rgb(201, 15, 15);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* header */
+
+/* paragraph */
+.formatp {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.boxp {
+    width: 500px;
+    border: 15px solid rgb(41, 41, 41);
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* paragraph */
+
+/* image */
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+}
+/* image */
+
+/* parallax */
+.parallax {
+    background-image: url("pictures/nacht.png");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("pictures/derriese.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen (max-device-width: 1000px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+/* parallax */
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+      background-color: red;
+  }
+  
+}
+/* navigation bar */
